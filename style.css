@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+body {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  background-color: #CC998D;
+}
+
+.card {
+  background-color: #ECEBE4;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  text-align: center;
+  margin: 30px 1px;
+  width: 1000px auto;
+}
+
+.avatar {
+  width: 250px;
+}
+
+img {
+  border-radius: 30%;
+}
+
+h1, h2 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #2B2D42;
+}
+
+h1 {
+  margin-bottom: 1px;
+  font-size: 50px;
+}
+
+a {
+  background-color: #2B2D42;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  text-align: center;
+  width: 200%;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card:first-child p {
+  margin-bottom: 40px;
+}
+
+.list-horizontal {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+
+.list-horizontal > li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.list-horizontal i {
+  color: #2B2D42;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.list-horizontal i:hover {
+  opacity: 0.5;
+}
+
+#socials-buttons {
+  background-color: #2B2D42;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  margin-left: 0;
+  text-decoration: none;
+  text-align: center;
+  font-size: 32px;
+}
+
+.linkedin-stupid-margin {
+  margin-left: 0;
+}
